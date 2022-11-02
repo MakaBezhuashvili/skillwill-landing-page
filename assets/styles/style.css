@@ -1,15 +1,24 @@
+html{
+    width: 1440px;
+    height: 2040;
+}
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+body {
     background: #0F172A;
 }
 
 .header {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 35px 110px;
+    padding: 38px 144px;
 }
 
 nav {
@@ -22,4 +31,112 @@ nav {
     line-height: 28px;
     color: #F8FAFC;
     text-decoration: none;
+}
+
+.heading {
+    font-size: 48px;
+    line-height: 56px;
+    color: #F8FAFC;
+    margin-top: 52px;
+    margin-bottom: 53px;
+}
+
+span {
+    font-size: 48px;
+    line-height: 56px;
+    color: #16B8F3
+}
+
+.main {
+    padding: 20px 145px;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.article {
+    background: rgba(30, 41, 59, 0.4);
+    border-radius: 20px;
+    padding: 34px 8px;
+    display: flex;
+    gap: 45px;
+    align-items: flex-end;
+}
+
+.article-info h3{
+    margin-bottom: 40px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    color: #F8FAFC;
+}
+
+.article-info p{
+    margin-bottom: 25px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #CBD5E1;
+}
+
+.project2 {
+    padding: 5px 27px;
+}
+
+.project3 {
+    padding: 5px 54px;
+}
+
+.gallery-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.gallery {
+    background: #1E293B;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+.gallery-content {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #F8FAFC;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    margin: 25px 30px;
+    text-align: center;
+}
+
+.time {
+    color: #9CA3AF;
+}
+
+footer {
+    border-top: 1px solid #CBD5E1;
+}
+
+.footer {
+    margin-top: 139px;
+    height: 136px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer1{
+    margin-left: 108px;
+}
+
+.footer2{
+    margin-right: 180px;
 }
